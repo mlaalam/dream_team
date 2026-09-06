@@ -1,0 +1,111 @@
+{
+  "services":  [
+    {
+      "id": "1",
+      "title": "Shopify Store Development",
+      "description": "Launch a professional Shopify store built to attract customers, showcase your products, and generate sales.",
+      "plan": "ECOMMERCE",
+      "price": "999",
+      "currency": "MAD/mo",
+      "features": [
+        "Shopify creation/mgmt",
+        "Product management",
+        "Theme customization",
+        "SEO optimization",
+        "Support & Maintenance"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "E-Commerce Store Management",
+      "description": "Let us handle your store while you focus on your business. We manage, optimize, and maintain your online store.",
+      "plan": "ECOMMERCE",
+      "price": "999",
+      "currency": "MAD/mo",
+      "features": [
+        "Shopify creation/mgmt",
+        "Product management",
+        "Theme customization",
+        "SEO optimization",
+        "Support & Maintenance"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Advertising Campaign Management",
+      "description": "Turn your advertising budget into growth with professionally managed Facebook and Instagram campaigns focused on reaching the right customers.",
+      "plan": "SOCIAL + ADS",
+      "price": "699",
+      "currency": "MAD/mo",
+      "note": "* Advertising budget is not included.",
+      "features": [
+        "Everything in Starter",
+        "Meta Ads management",
+        "Campaign setup",
+        "Audience targeting",
+        "Daily optimization"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "High-Converting Landing Pages",
+      "description": "Create a powerful first impression with landing pages designed to capture attention, build trust, and drive conversions.",
+      "plan": "SOCIAL STARTER",
+      "price": "399",
+      "currency": "MAD/mo",
+      "features": [
+        "FB/IG management",
+        "Content calendar",
+        "8 Professional posts",
+        "Captions & Hashtags",
+        "Monthly performance report"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Ad Creative Design",
+      "description": "Stop the scroll with high-impact ad creatives designed to grab attention and generate clicks, leads, and sales.",
+      "plan": "SOCIAL + ADS",
+      "price": "699",
+      "currency": "MAD/mo",
+      "note": "* Advertising budget is not included.",
+      "features": [
+        "Everything in Starter",
+        "Meta Ads management",
+        "Campaign setup",
+        "Audience targeting",
+        "Daily optimization"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Winning Sales Strategies",
+      "description": "Get a customized sales strategy designed around your product, audience, offer, and market to increase conversions and maximize revenue.",
+      "plan": "SOCIAL + ADS",
+      "price": "699",
+      "currency": "MAD/mo",
+      "features": [
+        "Everything in Starter",
+        "Meta Ads management",
+        "Campaign setup",
+        "Audience targeting",
+        "Daily optimization"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Ready-To-Sell E-Commerce Stores",
+      "description": "Get a complete, professionally designed e-commerce store ready to launch, promote, and start selling online.",
+      "plan": "ECOMMERCE",
+      "price": "999",
+      "currency": "MAD/mo",
+      "features": [
+        "Shopify creation/mgmt",
+        "Product management",
+        "Theme customization",
+        "SEO optimization",
+        "Support & Maintenance"
+      ]
+    }
+  ]
+}
