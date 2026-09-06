@@ -101,6 +101,7 @@ The project uses a `db.json` file as a simple local database.
 
 ## 📁 Project Structure
 
+```text
 src/
 │
 ├── assets/
@@ -138,6 +139,7 @@ src/
 ├── db.json
 ├── package.json
 └── README.md
+```
 
 ## 🚀 Installation
 
