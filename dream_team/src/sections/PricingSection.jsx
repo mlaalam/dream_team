@@ -5,7 +5,7 @@ const plans = [
   {
     name: "SOCIAL STARTER",
     price: "399",
-    currency: "MAD/mo",
+    currency: "USD/mo",
     features: [
       "FB/IG management",
       "Content calendar",
@@ -18,7 +18,7 @@ const plans = [
   {
     name: "SOCIAL + ADS",
     price: "699",
-    currency: "MAD/mo",
+    currency: "USD/mo",
     features: [
       "Everything in Starter",
       "Meta Ads management",
@@ -32,7 +32,7 @@ const plans = [
   {
     name: "ECOMMERCE",
     price: "999",
-    currency: "MAD/mo",
+    currency: "USD/mo",
     features: [
       "Shopify creation/mgmt",
       "Product management",
@@ -46,7 +46,7 @@ const plans = [
 
 export default function PricingSection() {
   return (
-    <section className="mx-5 md:mx-65 py-20 px-4 sm:px-6 lg:px-8">
+    <section className="mx-5 md:mx-65 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto text-center">
         
         {/* Section Header */}

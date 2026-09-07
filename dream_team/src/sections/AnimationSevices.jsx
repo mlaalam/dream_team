@@ -41,7 +41,7 @@ function AnimationSevices() {
   const duplicatedServices = [...services, ...services, ...services];
 
   return (
-    <div className="relative w-full overflow-hidden py-25">
+    <div className="relative w-full overflow-hidden pt-35">
       <div className="absolute left-0 top-0 z-10 h-full w-32 to-transparent"></div>
       <div className="absolute right-0 top-0 z-10 h-full w-32 to-transparent"></div>
 

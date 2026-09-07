@@ -3,7 +3,7 @@ import { FaEnvelope, FaWhatsapp, FaInstagram, FaFacebookF } from 'react-icons/fa
 
 export default function ContactSection() {
   return (
-    <section className="bg-[#0A0C10] text-white py-20 px-4 sm:px-6 lg:px-8">
+    <section className="bg-[#0A0C10] text-white py-20 mt-40 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-12 lg:gap-16 items-start">
         
         {/* Left Side: Information & Social Links */}
@@ -42,7 +42,7 @@ export default function ContactSection() {
                   WhatsApp
                 </span>
                 <a href="https://wa.me/212600000000" className="text-white text-sm font-semibold hover:text-[#D5EF69] transition-colors">
-                  +212 600 000 000
+                  +1 434 253 446
                 </a>
               </div>
             </div>

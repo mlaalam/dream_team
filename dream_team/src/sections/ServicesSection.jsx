@@ -21,7 +21,7 @@ const features = [
 
 export default function ServicesSection() {
   return (
-    <section className="bg-[#0D0E0F] text-white p-20 my-30 px-6 sm:px-12">
+    <section className="bg-[#0D0E0F] text-white py-20 my-30 px-6 sm:px-12">
       <div className="max-w-6xl mx-auto text-center">
         
         {/* Section Heading */}

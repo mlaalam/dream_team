@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from '../../assets/images/logo.webp'
+import logo from '../../assets/images/logo.jpg'
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,7 +24,7 @@ const Navbar = () => {
             className="flex items-center gap-2"
           >
             <img
-              className="h-10 w-auto rounded-lg"
+              className="h-15 w-auto rounded-lg"
               src={logo}
               alt="Digital Services Company logo"
             />

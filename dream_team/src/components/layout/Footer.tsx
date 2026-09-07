@@ -1,5 +1,5 @@
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import logo from '../../assets/images/logo.webp'
+import logof from '../../assets/images/logof.jpg'
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
         {/* Logo, Description & Social Icons */}
         <div>
           <div className="flex items-center gap-2 mb-4">
-            <img className="h-8 w-auto rounded" src={logo} alt="Logo" />
+            <img className="h-20 w-auto rounded" src={logof} alt="Logo footer" />
             <span className="text-white text-lg font-bold tracking-wider uppercase">
               Maarrach LLC
             </span>
