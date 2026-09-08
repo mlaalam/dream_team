@@ -25,6 +25,9 @@ jobs:
         run: npm run build
         working-directory: ./dream_team
 
+      - name: Verify Build Folder Content
+        run: ls -la dream_team/dist/
+
       - name: Sync Files via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
@@ -32,5 +35,5 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
-          local-dir: ./dream_team/dist/
-          server-dir: ./
+          local-dir: dream_team/dist/
+          server-dir: public_html/
