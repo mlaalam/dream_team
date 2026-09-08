@@ -33,4 +33,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
           local-dir: ./dream_team/dist/
-          server-dir: /public_html/
+          server-dir: ./
