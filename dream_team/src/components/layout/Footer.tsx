@@ -5,17 +5,16 @@ const Footer = () => {
   return (
     <footer className="bg-[#0b0d12] text-gray-400 w-full text-sm">
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-10">
-        
-        {/* Logo, Description & Social Icons */}
+
         <div>
           <div className="flex items-center gap-2 mb-4">
             <img className="h-20 w-auto rounded" src={logof} alt="Logo footer" />
             <span className="text-white text-lg font-bold tracking-wider uppercase">
-              Maarrach LLC
+              Maarrach
             </span>
           </div>
           <p className="text-gray-400 text-xs leading-relaxed mb-6 max-w-xs">
-            Maarrach LLC provides digital e-commerce development services, including Shopify store creation, e-commerce website development, dropshipping website design, store customization, and related digital services.
+            Maarrach provides digital e-commerce development services, including Shopify store creation, e-commerce website development, dropshipping website design, store customization, and related digital services.
             Legal business information used in this document: Maarrach LLC, 30 N Gould St Ste R, Sheridan, WY 82801, United States.
           </p>
           <div className="flex items-center gap-4 text-gray-400">
@@ -31,7 +30,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Navigation */}
         <div>
           <h3 className="text-white font-semibold mb-4 text-sm">Navigation</h3>
           <ul className="space-y-3 text-xs">
@@ -42,7 +40,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Services */}
+
         <div>
           <h3 className="text-white font-semibold mb-4 text-sm">Services</h3>
           <ul className="space-y-3 text-xs">
@@ -56,26 +54,25 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Legal */}
         <div>
           <h3 className="text-white font-semibold mb-4 text-sm">Legal</h3>
           <ul className="space-y-3 text-xs">
             <li><a href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</a></li>
             <li><a href="/terms-of-use" className="hover:text-white transition-colors">Terms of Use </a></li>
             <li><a href="/refund-cancellation" className="hover:text-white transition-colors">Refund & Cancellation Policy</a></li>
-            <li><a href="/shipping-digital" className="hover:text-white transition-colors">Shipping & Digital Delivery Policy </a></li>
+            {/* <li><a href="/shipping-digital" className="hover:text-white transition-colors">Shipping & Digital Delivery Policy </a></li> */}
           </ul>
         </div>
 
       </div>
 
-      {/* Bottom Bar */}
+
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 gap-4">
           <p>© 2026 Maarrach LLC. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <span>30 N Gould St Ste R, Sheridan, WY 82801, United States </span>
-            <span>Maarrach LLC</span>
+            <span>Maarrach</span>
           </div>
         </div>
       </div>

@@ -13,6 +13,14 @@ const plans = [
       "Captions & Hashtags",
       "Monthly performance report"
     ],
+    details: [
+      "2 Social Media Platforms (Facebook & Instagram)",
+      "Custom Content Calendar aligned with business goals",
+      "8 High-Quality Custom Graphic Posts per month",
+      "Engaging Captions & Targeted Hashtag Research",
+      "Monthly Analytics & Performance Growth Report",
+      "Basic Community Engagement & Comment Monitoring",
+    ],
     popular: false
   },
   {
@@ -48,8 +56,7 @@ export default function PricingSection() {
   return (
     <section className="mx-5  md:mx-65 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto text-center">
-        
-        {/* Section Header */}
+
         <p className="text-[#D5EF69] font-bold text-xs uppercase tracking-widest mb-2">
           Pricing Plans
         </p>
@@ -57,7 +64,6 @@ export default function PricingSection() {
           Simple Monthly Plans
         </h2>
 
-        {/* Pricing Cards Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch max-w-6xl mx-auto">
           {plans.map((plan, index) => (
             <div
@@ -68,14 +74,12 @@ export default function PricingSection() {
                   : "bg-[#131C22] text-white border border-gray-800/50"
               }`}
             >
-              {/* Popular Badge */}
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-white text-[#0A0C10] text-[11px] font-extrabold uppercase px-4 py-1.5 rounded-full shadow-md tracking-wider">
                   Most Popular
                 </div>
               )}
 
-              {/* Plan Title & Price */}
               <div className="text-left">
                 <h3 className={`text-sm font-bold tracking-wider uppercase mb-4 ${
                   plan.popular ? "text-[#0A0C10]" : "text-gray-200"
@@ -94,7 +98,6 @@ export default function PricingSection() {
                   </span>
                 </div>
 
-                {/* Features List */}
                 <ul className="space-y-4 mb-8">
                   {plan.features.map((feature, fIndex) => (
                     <li key={fIndex} className="flex items-center gap-3 text-sm font-medium">
@@ -106,7 +109,6 @@ export default function PricingSection() {
                   ))}
                 </ul>
 
-                {/* Optional Note */}
                 {plan.note && (
                   <p className="text-[11px] italic text-gray-700 mb-6">
                     {plan.note}
@@ -114,7 +116,6 @@ export default function PricingSection() {
                 )}
               </div>
 
-              {/* Action Button */}
               <button
                 className={`w-full py-3.5 px-6 rounded-2xl text-sm font-semibold transition-all duration-300 cursor-pointer ${
                   plan.popular

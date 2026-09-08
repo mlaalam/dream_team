@@ -5,7 +5,6 @@ function Hero() {
   return (
     <div className="flex mt-10 md:mt-20 mx-5 md:mx-65">
       <div className="flex flex-col lg:flex-row justify-between gap-10 lg:gap-20 w-full items-center text-center lg:text-left">
-        {/* Text Content */}
         <div className="w-full lg:w-1/2">
           <h1 className="text-[#D5EF69] text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4">
             Grow Your Business

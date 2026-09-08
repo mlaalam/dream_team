@@ -17,7 +17,6 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between h-16">
 
-          {/* Logo */}
           <a
             href="#home"
             onClick={closeMenu}
@@ -29,11 +28,9 @@ const Navbar = () => {
               alt="Digital Services Company logo"
             />
             <span className="text-white text-lg font-bold tracking-wider uppercase">
-              Maarrach LLC
+              Maarrach
             </span>
           </a>
-
-          {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-7">
             <a
               href="/"

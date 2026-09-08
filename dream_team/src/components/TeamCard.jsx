@@ -1,12 +1,13 @@
 import React from 'react';
 import { FaLinkedinIn, FaXTwitter, FaInstagram, FaGithub } from 'react-icons/fa6';
-import profile from '../assets/images/imageprofile.PNG'
+import profile from '../assets/images/imageprofile.PNG';
+import aliImage from '../assets/images/Ali.webp'
 
 const teamMembers = [
   {
-    name: "AbdAli",
+    name: "Abdelali Maarrach",
     role: "Founder",
-    image: profile,
+    image: aliImage,
     socials: [
       { icon: FaLinkedinIn, link: "#" },
       { icon: FaXTwitter, link: "#" },
@@ -14,7 +15,7 @@ const teamMembers = [
     ]
   },
   {
-    name: "Aanas",
+    name: "Anass Danani",
     role: "Social Media",
     image: profile,
     socials: [
@@ -28,9 +29,9 @@ const teamMembers = [
     role: "Developer Full Stack",
     image: profile,
     socials: [
-      { icon: FaLinkedinIn, link: "#" },
-      { icon: FaXTwitter, link: "#" },
-      { icon: FaInstagram, link: "#" }
+      { icon: FaLinkedinIn, link: "https://www.linkedin.com/in/mouadlaalam" },
+      { icon: FaGithub, link: "https://github.com/mlaalam" },
+      { icon: FaInstagram, link: "https://www.instagram.com/m_code_05" }
     ]
   }
 ];
@@ -50,7 +51,7 @@ export default function TeamCard() {
             key={index}
             className="w-full sm:w-[calc(50%-1.5rem)] lg:w-[calc(25%-1.5rem)] max-w-xs bg-[#131C22] rounded-3xl p-8 flex flex-col items-center text-center border border-gray-800/40 hover:border-gray-700 transition-all duration-300 group"
           >
-            {/* Avatar Frame */}
+
             <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl overflow-hidden mb-6 bg-gray-800 shrink-0">
               <img 
                 src={member.image} 
@@ -59,17 +60,14 @@ export default function TeamCard() {
               />
             </div>
 
-            {/* Name */}
             <h3 className="text-lg font-bold text-white mb-1">
               {member.name}
             </h3>
 
-            {/* Role */}
             <p className="text-[#D5EF69] text-xs font-semibold tracking-wider mb-6">
               {member.role}
             </p>
 
-            {/* Social Icons */}
             <div className="flex items-center gap-4 mt-auto">
               {member.socials.map((social, sIndex) => {
                 const Icon = social.icon;
