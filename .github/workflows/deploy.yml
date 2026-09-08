@@ -25,7 +25,7 @@ jobs:
         run: npm run build
         working-directory: ./dream_team
 
-      - name: Verify Build Folder Content
+      - name: Verify Build Output
         run: ls -la dream_team/dist/
 
       - name: Sync Files via FTP
@@ -37,3 +37,4 @@ jobs:
           protocol: ftps
           local-dir: dream_team/dist/
           server-dir: public_html/
+          dangerous-clean-slate: true
