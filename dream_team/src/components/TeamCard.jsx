@@ -1,7 +1,8 @@
 import React from 'react';
 import { FaLinkedinIn, FaXTwitter, FaInstagram, FaGithub } from 'react-icons/fa6';
-import profile from '../assets/images/imageprofile.PNG';
-import aliImage from '../assets/images/Ali.webp'
+import aliImage from '../assets/images/Ali.webp';
+import anasImage from '../assets/images/anass.webp';
+import mouadImage from '../assets/images/mouad.webp';
 
 const teamMembers = [
   {
@@ -17,7 +18,7 @@ const teamMembers = [
   {
     name: "Anass Danani",
     role: "Social Media",
-    image: profile,
+    image: anasImage,
     socials: [
       { icon: FaLinkedinIn, link: "#" },
       { icon: FaXTwitter, link: "#" },
@@ -27,7 +28,7 @@ const teamMembers = [
   {
     name: "Mouad laalam",
     role: "Developer Full Stack",
-    image: profile,
+    image: mouadImage,
     socials: [
       { icon: FaLinkedinIn, link: "https://www.linkedin.com/in/mouadlaalam" },
       { icon: FaGithub, link: "https://github.com/mlaalam" },
