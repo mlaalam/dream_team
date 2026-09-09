@@ -19,14 +19,14 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
-        working-directory: ./dream_team
+        working-directory: ./dream_team/dream_team
 
       - name: Build Project
         run: npm run build
-        working-directory: ./dream_team
+        working-directory: ./dream_team/dream_team
 
       - name: Verify Build Output
-        run: ls -la dream_team/dist/
+        run: ls -la dream_team/dream_team/dist/
 
       - name: Sync Files via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -35,6 +35,5 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
-          local-dir: dream_team/dist/
+          local-dir: dream_team/dream_team/dist/
           server-dir: public_html/
-          dangerous-clean-slate: true
