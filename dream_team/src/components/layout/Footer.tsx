@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn , FaEnvelope } from "react-icons/fa";
 import logof from '../../assets/images/logof.jpg'
 
 const Footer = () => {
@@ -13,9 +13,12 @@ const Footer = () => {
               Maarrach
             </span>
           </div>
-          <p className="text-gray-400 text-xs leading-relaxed mb-6 max-w-xs">
+          <p className="text-gray-400 text-xs leading-relaxed mb-2  max-w-xs">
             Maarrach provides digital e-commerce development services, including Shopify store creation, e-commerce website development, dropshipping website design, store customization, and related digital services.
-            Legal business information used in this document: Maarrach LLC, 30 N Gould St Ste R, Sheridan, WY 82801, United States.
+            Legal business information used in this document: Maarrach, 30 N Gould St Ste R, Sheridan, WY 82801, United States.
+          </p>
+          <p className="text-ms leading-relaxed mb-6 max-w-xs">
+              contact@maarrach.com
           </p>
           <div className="flex items-center gap-4 text-gray-400">
             <a href="#" className="hover:text-white transition-colors" aria-label="LinkedIn">

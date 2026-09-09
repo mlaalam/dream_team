@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Check } from 'lucide-react';
+import PlanDetailModal from '../components/PlanDetailModal';
+
 
 const plans = [
   {
     name: "SOCIAL STARTER",
-    price: "399",
+    price: "50",
     currency: "USD/mo",
     features: [
       "FB/IG management",
@@ -19,13 +21,13 @@ const plans = [
       "8 High-Quality Custom Graphic Posts per month",
       "Engaging Captions & Targeted Hashtag Research",
       "Monthly Analytics & Performance Growth Report",
-      "Basic Community Engagement & Comment Monitoring",
+      "Basic Community Engagement & Comment Monitoring"
     ],
     popular: false
   },
   {
     name: "SOCIAL + ADS",
-    price: "699",
+    price: "30",
     currency: "USD/mo",
     features: [
       "Everything in Starter",
@@ -34,12 +36,20 @@ const plans = [
       "Audience targeting",
       "Daily optimization"
     ],
+    details: [
+      "All Features included in Social Starter",
+      "Full Meta Ads (Facebook & Instagram) Campaign Setup",
+      "Custom Audience Creation & Pixel/API Setup",
+      "A/B Testing on Ad Creatives & Copies",
+      "Daily Ad Optimization & Budget Management",
+      "Detailed Monthly ROI & Conversion Reporting"
+    ],
     note: "* Advertising budget is not included.",
     popular: true
   },
   {
-    name: "ECOMMERCE",
-    price: "999",
+    name: "store building ECOMMERCE",
+    price: "100",
     currency: "USD/mo",
     features: [
       "Shopify creation/mgmt",
@@ -48,13 +58,34 @@ const plans = [
       "SEO optimization",
       "Support & Maintenance"
     ],
+    details: [
+      "Full Shopify Store Setup or Management",
+      "Product Catalog Upload & Inventory Sync (up to 50 items)",
+      "Custom Theme Styling & Mobile Optimization",
+      "On-Page E-commerce SEO Optimization",
+      "Payment Gateway & Shipping Integration",
+      "24/7 Ongoing Technical Maintenance & Support"
+    ],
     popular: false
   }
 ];
 
 export default function PricingSection() {
+  const [selectedPlan, setSelectedPlan] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const handleOpenModal = (plan) => {
+    setSelectedPlan(plan);
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+    setSelectedPlan(null);
+  };
+
   return (
-    <section className="mx-5  md:mx-65 px-4 sm:px-6 lg:px-8">
+    <section className="px-4 sm:px-6 lg:px-8 py-12">
       <div className="max-w-7xl mx-auto text-center">
 
         <p className="text-[#D5EF69] font-bold text-xs uppercase tracking-widest mb-2">
@@ -117,6 +148,7 @@ export default function PricingSection() {
               </div>
 
               <button
+                onClick={() => handleOpenModal(plan)}
                 className={`w-full py-3.5 px-6 rounded-2xl text-sm font-semibold transition-all duration-300 cursor-pointer ${
                   plan.popular
                     ? "bg-[#0A0C10] text-white hover:bg-gray-900"
@@ -130,6 +162,12 @@ export default function PricingSection() {
         </div>
 
       </div>
+
+      <PlanDetailModal
+        plan={selectedPlan}
+        isOpen={isModalOpen}
+        onClose={handleCloseModal}
+      />
     </section>
   );
 }
