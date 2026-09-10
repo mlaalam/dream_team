@@ -3,6 +3,7 @@ import Home from '../pages/Home'
 import Services from '../pages/Services'
 import AboutUs from '../pages/AboutUs'
 import Contact from '../pages/Contact'
+import Pricing from '../pages/Pricing'
 
 
 function MainPages() {
@@ -12,9 +13,12 @@ function MainPages() {
         <section id="home" className="min-h-screen scroll-mt-24">
           <Home />
         </section>
-        <section id="services" className="min-h-screen scroll-mt-24">
-          <Services />
+        <section id="pricing" className="min-h-screen scroll-mt-24">
+          <Pricing />
         </section>
+        {/* <section id="services" className="min-h-screen scroll-mt-24">
+          <Services />
+        </section> */}
         <section id="about" className="min-h-screen scroll-mt-24">
           <AboutUs />
         </section>

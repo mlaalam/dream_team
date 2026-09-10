@@ -39,7 +39,7 @@ const teamMembers = [
 
 export default function TeamCard() {
   return (
-    <section className="bg-[#0D0E0F] text-white py-20 px-4 sm:px-6 lg:px-8">
+    <section className="bg-[#0D0E0F] text-white mt-20 py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto text-center">
         
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-16 tracking-tight">
