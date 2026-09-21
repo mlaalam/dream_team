@@ -161,5 +161,16 @@
         "Post-Launch Handoff Training & Guidance"
       ]
     }
+  ],
+  "projects":[
+    {
+    "id": "1",
+    "title": "Orvanica E-commerce Store",
+    "category": "Shopify / E-commerce",
+    "description": "Full Shopify store setup with responsive design, custom theme adjustments, and payment integration.",
+    "image": "/images/Orvanica.webp",
+    "demoUrl": "https://orvanica.com",
+    "technologies": ["Shopify", "Liquid", "SEO", "Responsive"]
+    }
   ]
 }

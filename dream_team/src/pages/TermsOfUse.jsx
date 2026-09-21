@@ -14,15 +14,15 @@ export default function TermsOfUse() {
           <h2 className="text-xl font-semibold mb-2 text-white">Our Services</h2>
           <p className="mb-2">Maarrach LLC provides digital design and development services, including:</p>
           <ul className="list-disc pl-6 space-y-1 mb-3">
-            <li>Shopify store creation.</li>
-            <li>E-commerce website design and development.</li>
-            <li>Dropshipping website design.</li>
-            <li>Website customization.</li>
+            <li>Shopify store creation and ready-to-use (pre-built) e-commerce stores.</li>
+            <li>E-commerce website design, development, and customization.</li>
+            <li>Store setup, configuration, and functionality testing (including checkout and payment gateway flow verification).</li>
+            <li>Dropshipping website design and related digital services.</li>
             <li>Store setup and configuration.</li>
             <li>Related digital design and development services.</li>
           </ul>
           <p>
-            The exact scope, price, deliverables, and timeline may vary by project and will be communicated to the client as applicable.
+            The exact scope, price, deliverables, and timeline may vary by project or store package and will be communicated to the client as applicable.
           </p>
         </section>
 
@@ -39,7 +39,17 @@ export default function TermsOfUse() {
             Payment terms will be communicated before or during the ordering process. Clients agree to provide accurate billing and payment information. Failure to make required payments may result in suspension or termination of work until outstanding amounts are resolved.
           </p>
         </section>
-
+        <section className="mb-6">
+          <h2 className="text-xl font-semibold mb-2 text-white">
+            Third-Party Marketplace & Escrow Sales
+          </h2>
+          <p className="mb-3">
+            Maarrach LLC may list and sell pre-built e-commerce stores or digital assets through third-party marketplaces, including Flippa, or utilize secure Escrow services for payment processing and asset transfer.
+          </p>
+          <p>
+            When a purchase is made through a third-party marketplace or via an Escrow service, the transaction, payment handling, and ownership transfer are governed by the respective platform’s terms, rules, and dispute resolution mechanisms in addition to these Terms. Once the Escrow process is completed and the store assets are successfully handed over to the buyer, the sale is considered final.
+          </p>
+        </section>
         <section>
           <h2 className="text-xl font-semibold mb-2 text-white">Project Scope and Revisions</h2>
           <p>
@@ -59,8 +69,10 @@ export default function TermsOfUse() {
           <p>
             Maarrach LLC may design websites intended for e-commerce or dropshipping businesses. Unless expressly agreed otherwise, Maarrach LLC acts as a website design and development service provider and does not act as the seller, supplier, manufacturer, distributor, or fulfillment provider for products subsequently offered by a client’s store. The client remains responsible for suppliers, products, customer orders, fulfillment, returns, taxes, advertising, and operation of the client’s business. Maarrach LLC does not guarantee profitability, sales volume, revenue, advertising performance, or commercial success.
           </p>
+          <p>
+            <strong>Store Testing & Handover:</strong> As part of our setup or pre-built store deliverables, Maarrach LLC may perform test transactions and technical verification checks to ensure that the checkout process, payment gateways, and store workflows function properly prior to final delivery. Upon store completion or ownership transfer, the client assumes full responsibility for connecting their own live payment processors, managing credentials, handling transactions, maintaining account compliance, and overseeing all financial operations.
+          </p>
         </section>
-
         <section>
           <h2 className="text-xl font-semibold mb-2 text-white">Intellectual Property</h2>
           <p>

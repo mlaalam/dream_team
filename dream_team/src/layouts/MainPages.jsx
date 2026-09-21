@@ -16,9 +16,9 @@ function MainPages() {
         <section id="pricing" className="min-h-screen scroll-mt-24">
           <Pricing />
         </section>
-        {/* <section id="services" className="min-h-screen scroll-mt-24">
+        <section id="services" className="min-h-screen scroll-mt-24">
           <Services />
-        </section> */}
+        </section>
         <section id="about" className="min-h-screen scroll-mt-24">
           <AboutUs />
         </section>
