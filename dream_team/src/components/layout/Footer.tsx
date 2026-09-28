@@ -21,13 +21,13 @@ const Footer = () => {
               contact@maarrach.com
           </p>
           <div className="flex items-center gap-4 text-gray-400">
-            <a href="#" className="hover:text-white transition-colors" aria-label="LinkedIn">
+            {/* <a href="#" className="hover:text-white transition-colors" aria-label="LinkedIn">
               <FaLinkedinIn className="w-4 h-4" />
-            </a>
-            <a href="#" className="hover:text-white transition-colors" aria-label="Facebook">
+            </a> */}
+            <a href="https://web.facebook.com/profile.php?id=61594498124893&locale=fr_FR" className="hover:text-white transition-colors" aria-label="Facebook">
               <FaFacebookF className="w-4 h-4" />
             </a>
-            <a href="#" className="hover:text-white transition-colors" aria-label="Instagram">
+            <a href="https://www.instagram.com/maar.rach/?hl=fr" className="hover:text-white transition-colors" aria-label="Instagram">
               <FaInstagram className="w-4 h-4" />
             </a>
           </div>

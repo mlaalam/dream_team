@@ -79,7 +79,7 @@ export default function ContactSection() {
                   WhatsApp
                 </span>
                 <a 
-                  href="https://wa.me/212600000000" 
+                  href="https://wa.me/1 434 253 446" 
                   className="text-white text-sm font-semibold hover:text-[#D5EF69] transition-colors"
                 >
                   +1 434 253 446
@@ -90,14 +90,14 @@ export default function ContactSection() {
 
           <div className="flex items-center gap-3">
             <a 
-              href="#" 
+              href="https://www.instagram.com/maar.rach/?hl=fr" 
               aria-label="Instagram"
               className="w-10 h-10 rounded-full border border-gray-800 bg-[#131C22] flex items-center justify-center text-gray-300 hover:text-[#D5EF69] hover:border-[#D5EF69] transition-colors"
             >
               <FaInstagram className="w-4 h-4" />
             </a>
             <a 
-              href="#" 
+              href="https://web.facebook.com/profile.php?id=61594498124893&locale=fr_FR" 
               aria-label="Facebook"
               className="w-10 h-10 rounded-full border border-gray-800 bg-[#131C22] flex items-center justify-center text-gray-300 hover:text-[#D5EF69] hover:border-[#D5EF69] transition-colors"
             >

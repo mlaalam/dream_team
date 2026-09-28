@@ -12,8 +12,8 @@ function Hero() {
           </h1>
 
           <p className="text-gray-100 mt-4 sm:mt-5 text-base sm:text-lg md:text-xl line-clamp-3 overflow-hidden max-w-2xl mx-auto lg:mx-0">
-            Maarrach LLC provides digital e-commerce development services, including Shopify store creation, e-commerce website development, dropshipping website design, store customization, and related digital services.
-            Legal business information used in this document: Maarrach LLC, 30 N Gould St Ste R, Sheridan, WY 82801, United States.
+            Maarrach provides digital e-commerce development services, including Shopify store creation, e-commerce website development, dropshipping website design, store customization, and related digital services.
+            Legal business information used in this document: Maarrach, 30 N Gould St Ste R, Sheridan, WY 82801, United States.
           </p>
 
           <div className="my-8 sm:my-10 flex flex-col sm:flex-row justify-center lg:justify-start gap-4 sm:gap-6">
