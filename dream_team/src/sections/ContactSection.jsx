@@ -64,7 +64,7 @@ export default function ContactSection() {
 
     emailjs
       .sendForm(
-        'service_o0q9czl',
+        'service_k38ze7i',
         'template_wxpnwm9',
         formRef.current,
         'DeKqm8HUv0y6Kl9MX'
