@@ -4,20 +4,21 @@ import Services from '../pages/Services'
 import AboutUs from '../pages/AboutUs'
 import Contact from '../pages/Contact'
 import Pricing from '../pages/Pricing'
+import Projects from '../pages/Projects'
 
 
 function MainPages() {
   return (
-    <div>
+    <div className=''>
       <main className="min-h-screen">
         <section id="home" className="min-h-screen scroll-mt-24">
           <Home />
         </section>
-        <section id="pricing" className="min-h-screen scroll-mt-24">
-          <Pricing />
-        </section>
         <section id="services" className="min-h-screen scroll-mt-24">
           <Services />
+        </section>
+        <section id="pricing" className="min-h-screen scroll-mt-24">
+          <Projects />
         </section>
         <section id="about" className="min-h-screen scroll-mt-24">
           <AboutUs />

@@ -40,10 +40,10 @@ const Navbar = () => {
             </a>
 
             <a
-              href="/#pricing"
+              href="/#services"
               className="text-white/80 text-sm hover:text-[#D5EF69] transition-colors duration-300"
             >
-              Pricing
+              Services
             </a>
 
             <a
@@ -114,11 +114,11 @@ const Navbar = () => {
             </a>
 
             <a
-              href="/#pricing"
+              href="/#services"
               onClick={closeMenu}
               className="text-white hover:text-[#D5EF69] transition-colors"
             >
-              Pricing
+              Services
             </a>
 
             <a
@@ -128,7 +128,7 @@ const Navbar = () => {
             >
               About Us
             </a>
-
+ 
             <a
               href="/#contact"
               onClick={closeMenu}

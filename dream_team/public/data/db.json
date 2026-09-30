@@ -2,175 +2,164 @@
   "services": [
     {
       "id": "1",
-      "title": "Shopify Store Development",
-      "description": "Launch a professional Shopify store built to attract customers, showcase your products, and generate sales.",
-      "plan": "ECOMMERCE",
-      "price": "999",
-      "currency": "USD/mo",
-      "features": [
-        "Shopify creation/mgmt",
-        "Product management",
-        "Theme customization",
-        "SEO optimization",
-        "Support & Maintenance"
-      ],
-      "details": [
-        "Full Shopify Store Creation & Configuration",
-        "Mobile-Responsive Premium Theme Setup",
-        "Product Catalog & Collection Organization",
-        "Payment Gateway & Shipping Method Setup",
-        "On-Page E-commerce SEO Optimization",
-        "Ongoing Technical Support & Platform Maintenance"
+      "title": "Full-Stack Web & Software Development",
+      "description": "Custom web development solutions tailored to your project scale and technology requirements.",
+      "plan": "DEVELOPMENT",
+      "image": "/images/dev.webp",
+      "currency": "USD",
+      "pricing": [
+        {
+          "type": "WordPress & WooCommerce Site",
+          "price": "350",
+          "currency": "USD",
+          "deliveryTime": "5-7 Days",
+          "description": "Fast and customizable website built with WordPress & Elementor Pro.",
+          "details": [
+            "Custom Theme Setup & Elementor Design",
+            "WooCommerce E-commerce Integration",
+            "Speed & Caching Optimization",
+            "Security Setup & SSL Configuration",
+            "Mobile Responsive Design"
+          ]
+        },
+        {
+          "type": "Custom React.js Frontend Application",
+          "price": "599",
+          "currency": "USD",
+          "deliveryTime": "7-10 Days",
+          "description": "Modern, ultra-fast Single Page Application built with React.js & Tailwind CSS.",
+          "details": [
+            "React.js Single Page Application (SPA)",
+            "Tailwind CSS Responsive Design",
+            "State Management (Redux / Context API)",
+            "RESTful API Integration",
+            "High Performance & SEO Optimization"
+          ]
+        },
+        {
+          "type": "Full Custom App (React.js + Laravel API)",
+          "price": "1500",
+          "currency": "USD",
+          "deliveryTime": "15-30 Days",
+          "description": "Complete enterprise web app with custom React frontend and Laravel API backend.",
+          "details": [
+            "React.js Interactive Frontend Dashboard",
+            "Laravel RESTful API Backend System",
+            "Database Design (MySQL)",
+            "Authentication & Role-Based Access",
+            "Deployment to VPS / Cloud Server"
+          ]
+        }
       ]
     },
     {
       "id": "2",
-      "title": "E-Commerce Store Management",
-      "description": "Let us handle your store while you focus on your business. We manage, optimize, and maintain your online store.",
-      "plan": "ECOMMERCE",
-      "price": "999",
-      "currency": "USD/mo",
-      "features": [
-        "Shopify creation/mgmt",
-        "Product management",
-        "Theme customization",
-        "SEO optimization",
-        "Support & Maintenance"
-      ],
-      "details": [
-        "Daily Store Maintenance & Inventory Updates",
-        "New Product Uploads & Optimization",
-        "UI/UX Enhancements & Theme Adjustments",
-        "Store Speed & Performance Optimization",
-        "Bug Fixing & Third-Party App Management",
-        "Dedicated Monthly Performance Reviews"
+      "title": "Graphic Design & Visual Branding",
+      "description": "Professional graphic design services using Photoshop & Illustrator to elevate your brand visual identity.",
+      "plan": "DESIGN",
+      "image": "/images/desg.webp",
+      "currency": "USD",
+      "pricing": [
+        {
+          "type": "Logo & Brand Essentials",
+          "price": "199",
+          "currency": "USD",
+          "deliveryTime": "2-3 Days",
+          "description": "Unique, vector-based brand logo and basic identity kit.",
+          "details": [
+            "3 Custom Logo Concepts",
+            "High-Res Export (PNG, SVG, AI Source Files)",
+            "Brand Color Palette & Typography Guidelines",
+            "Social Media Profile Avatar & Banners"
+          ]
+        },
+        {
+          "type": "Ad Creatives & Marketing Graphics",
+          "price": "349",
+          "currency": "USD",
+          "deliveryTime": "3-5 Days",
+          "description": "High-converting ad designs and social media visual packages.",
+          "details": [
+            "10 High-Converting Ad Creatives (Feed/Stories)",
+            "Photoshop Photo Editing & Retouching",
+            "Custom Promotional Banners",
+            "Commercial Usage Rights Included"
+          ]
+        },
+        {
+          "type": "Full Brand Identity & UI Kit",
+          "price": "599",
+          "currency": "USD",
+          "deliveryTime": "5-7 Days",
+          "description": "Complete visual branding suite for businesses and digital products.",
+          "details": [
+            "Complete Brand Identity Book",
+            "Logo, Business Cards & Stationery Design",
+            "Social Media Design Templates",
+            "Figma Component & Color Style Guide"
+          ]
+        }
       ]
     },
     {
       "id": "3",
-      "title": "Advertising Campaign Management",
-      "description": "Turn your advertising budget into growth with professionally managed Facebook and Instagram campaigns focused on reaching the right customers.",
-      "plan": "SOCIAL + ADS",
-      "price": "699",
-      "currency": "USD/mo",
-      "note": "* Advertising budget is not included.",
-      "features": [
-        "Everything in Starter",
-        "Meta Ads management",
-        "Campaign setup",
-        "Audience targeting",
-        "Daily optimization"
-      ],
-      "details": [
-        "Full Meta Business Manager & Pixel Configuration",
-        "Custom & Lookalike Audience Building",
-        "A/B Split Testing for Ad Creatives & Copies",
-        "Daily Bidding & Campaign Scaling",
-        "Conversion Funnel Tracking & ROAS Optimization",
-        "Weekly Performance Analytics & Reports"
-      ]
-    },
-    {
-      "id": "4",
-      "title": "High-Converting Landing Pages",
-      "description": "Create a powerful first impression with landing pages designed to capture attention, build trust, and drive conversions.",
-      "plan": "SOCIAL STARTER",
-      "price": "399",
-      "currency": "USD/mo",
-      "features": [
-        "FB/IG management",
-        "Content calendar",
-        "8 Professional posts",
-        "Captions & Hashtags",
-        "Monthly performance report"
-      ],
-      "details": [
-        "Custom-Designed High-Converting Layouts",
-        "Copywriting Targeted to Your Niche Audience",
-        "Mobile & Tablet Responsive Design",
-        "Lead Capture Forms & Call-To-Action Setup",
-        "Integration with Email Marketing Software",
-        "Fast Loading Speed & On-Page SEO"
-      ]
-    },
-    {
-      "id": "5",
-      "title": "Ad Creative Design",
-      "description": "Stop the scroll with high-impact ad creatives designed to grab attention and generate clicks, leads, and sales.",
-      "plan": "SOCIAL + ADS",
-      "price": "699",
-      "currency": "USD/mo",
-      "note": "* Advertising budget is not included.",
-      "features": [
-        "Everything in Starter",
-        "Meta Ads management",
-        "Campaign setup",
-        "Audience targeting",
-        "Daily optimization"
-      ],
-      "details": [
-        "High-Converting Image & Video Ad Designs",
-        "Engaging Ad Copywriting & Headlines",
-        "Multiple Aspect Ratios (Feed, Stories, Reels)",
-        "Brand Identity & Style Matching",
-        "Continuous Testing of New Ad Variants"
-      ]
-    },
-    {
-      "id": "6",
-      "title": "Winning Sales Strategies",
-      "description": "Get a customized sales strategy designed around your product, audience, offer, and market to increase conversions and maximize revenue.",
-      "plan": "SOCIAL + ADS",
-      "price": "699",
-      "currency": "USD/mo",
-      "features": [
-        "Everything in Starter",
-        "Meta Ads management",
-        "Campaign setup",
-        "Audience targeting",
-        "Daily optimization"
-      ],
-      "details": [
-        "In-depth Competitor & Market Research",
-        "Sales Funnel Mapping & Conversion Rate Optimization",
-        "Offer Creation & Upsell Strategy Development",
-        "Customer Journey Analysis & Messaging Framework",
-        "Step-by-Step Execution Plan & Consultation"
-      ]
-    },
-    {
-      "id": "7",
-      "title": "Ready-To-Sell E-Commerce Stores",
-      "description": "Get a complete, professionally designed e-commerce store ready to launch, promote, and start selling online.",
-      "plan": "ECOMMERCE",
-      "price": "999",
-      "currency": "USD/mo",
-      "features": [
-        "Shopify creation/mgmt",
-        "Product management",
-        "Theme customization",
-        "SEO optimization",
-        "Support & Maintenance"
-      ],
-      "details": [
-        "Turnkey E-Commerce Store Built for Immediate Launch",
-        "Pre-Loaded High-Demand Products & Suppliers Integration",
-        "Conversion-Focused Store Theme Customization",
-        "Essential Legal Pages & Policy Templates",
-        "Payment & Checkout Process Testing",
-        "Post-Launch Handoff Training & Guidance"
+      "title": "Turnkey Dropshipping & Shopify Stores",
+      "description": "End-to-end e-commerce solutions built to start selling online with automated supplier order fulfillment.",
+      "plan": "DROPSHIPPING",
+      "image": "/images/drop.webp",
+      "currency": "USD",
+      "pricing": [
+        {
+          "type": "Single Product High-Converting Store",
+          "price": "499",
+          "currency": "USD",
+          "deliveryTime": "3-5 Days",
+          "description": "Optimized Shopify store built around 1 winning product for high conversion rates.",
+          "details": [
+            "Custom Single-Product Landing Page",
+            "Suppliers Integration & Fast Shipping Setup",
+            "High-Converting Sales Funnel & Trust Badges",
+            "Payment Gateway & Checkout Testing"
+          ]
+        },
+        {
+          "type": "Full Niche Dropshipping Store",
+          "price": "799",
+          "currency": "USD",
+          "deliveryTime": "5-7 Days",
+          "description": "Complete Shopify store pre-loaded with top-selling niche products.",
+          "details": [
+            "Niche Market Research & 15+ Winning Products",
+            "Supplier Auto-Sync Setup (CJ Dropshipping / AutoDS)",
+            "Premium Shopify Theme Customization",
+            "Multi-Currency & Language Configuration"
+          ]
+        },
+        {
+          "type": "Turnkey Brand Store + Ads Package",
+          "price": "1299",
+          "currency": "USD",
+          "deliveryTime": "7-10 Days",
+          "description": "Ready-to-launch store complete with brand assets and ad creatives.",
+          "details": [
+            "Turnkey Customized Shopify Brand Store",
+            "20+ Vetted Winning Products & Descriptions",
+            "5 Custom Meta Ad Creatives (Video/Image)",
+            "Post-Launch Support & Marketing Guidance"
+          ]
+        }
       ]
     }
   ],
-  "projects":[
+  "projects": [
     {
-    "id": "1",
-    "title": "Orvanica E-commerce Store",
-    "category": "Shopify / E-commerce",
-    "description": "Full Shopify store setup with responsive design, custom theme adjustments, and payment integration.",
-    "image": "/images/Orvanica.webp",
-    "demoUrl": "https://orvanica.com",
-    "technologies": ["Shopify", "Liquid", "SEO", "Responsive"]
+      "id": "1",
+      "title": "Orvanica E-commerce Store",
+      "category": "Shopify / E-commerce",
+      "description": "Full Shopify store setup with responsive design, custom theme adjustments, and payment integration.",
+      "image": "/images/Orvanica.webp",
+      "demoUrl": "https://orvanica.com",
+      "technologies": ["Shopify", "Liquid", "SEO", "Responsive"]
     }
   ]
 }
