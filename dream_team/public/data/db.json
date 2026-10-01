@@ -61,42 +61,102 @@
       "currency": "USD",
       "pricing": [
         {
-          "type": "Logo & Brand Essentials",
-          "price": "199",
+          "type": "Basic Plan",
+          "price": "39",
           "currency": "USD",
           "deliveryTime": "2-3 Days",
-          "description": "Unique, vector-based brand logo and basic identity kit.",
+          "description": "Perfect for startups and side projects looking for a clean, professional launch.",
           "details": [
-            "3 Custom Logo Concepts",
-            "High-Res Export (PNG, SVG, AI Source Files)",
-            "Brand Color Palette & Typography Guidelines",
-            "Social Media Profile Avatar & Banners"
+            "2 Unique Logo Concepts",
+            "Up to 3 Rounds of Revisions (on the selected concept)",
+            "High-Resolution Deliverables: PNG (transparent), JPG, and PDF",
+            "Fast Delivery: Ready within 2-3 business days"
           ]
         },
         {
-          "type": "Ad Creatives & Marketing Graphics",
-          "price": "349",
+          "type": "Pro Plan",
+          "price": "99",
           "currency": "USD",
           "deliveryTime": "3-5 Days",
-          "description": "High-converting ad designs and social media visual packages.",
+          "isPopular": true,
+          "description": "Designed for growing businesses seeking a strong and distinctive market presence.",
           "details": [
-            "10 High-Converting Ad Creatives (Feed/Stories)",
-            "Photoshop Photo Editing & Retouching",
-            "Custom Promotional Banners",
-            "Commercial Usage Rights Included"
+            "3 to 4 Creative Concepts (tailored to your industry and audience)",
+            "Unlimited Revisions (until you are 100% satisfied)",
+            "Complete Source & Vector Files: AI, EPS, SVG, PNG, JPG, and PDF",
+            "Color Palette & Typography: Official color codes & font guide",
+            "3D Real-World Mockups: Previews on business cards, apparel, and signage",
+            "Priority Support & Communication"
           ]
         },
         {
-          "type": "Full Brand Identity & UI Kit",
-          "price": "599",
+          "type": "Premium Brand Identity Plan",
+          "price": "199",
           "currency": "USD",
           "deliveryTime": "5-7 Days",
-          "description": "Complete visual branding suite for businesses and digital products.",
+          "description": "A complete, end-to-end identity solution built to establish an authority brand.",
           "details": [
-            "Complete Brand Identity Book",
-            "Logo, Business Cards & Stationery Design",
-            "Social Media Design Templates",
-            "Figma Component & Color Style Guide"
+            "5 Premium Custom Concepts (backed by industry research)",
+            "Unlimited Revisions with top-priority turnaround",
+            "Full Master Source Files formatted for all digital and print media",
+            "Comprehensive Brand Guidelines (PDF): Logo usage rules, clear spaces, color systems, and font hierarchy",
+            "Stationery Design Pack: Business card, letterhead, and envelope designs",
+            "Social Media Kit: Profile pictures, cover banners, and 3 post templates"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Social Media Graphics & Content",
+      "description": "High-converting social media post designs and visuals tailored to boost engagement across platforms.",
+      "plan": "SOCIAL",
+      "image": "/images/social.webp",
+      "currency": "USD",
+      "pricing": [
+        {
+          "type": "Basic Plan",
+          "price": "30",
+          "currency": "USD",
+          "deliveryTime": "3-4 Days",
+          "description": "Perfect for maintaining a clean and active social media presence.",
+          "details": [
+            "12 Custom Designed Posts (Static graphics)",
+            "Platforms: Up to 2 (e.g., Facebook & Instagram)",
+            "High-Resolution Deliverables: PNG & JPG formats",
+            "Basic Caption Writing & Hashtags Included",
+            "Fast Delivery: Ready within 3-4 business days"
+          ]
+        },
+        {
+          "type": "Pro Plan",
+          "price": "59",
+          "currency": "USD",
+          "deliveryTime": "4-5 Days",
+          "isPopular": true,
+          "description": "Ideal for growing brands that want high engagement and strong visual identity.",
+          "details": [
+            "20 Custom Designed Posts (Includes 2 Animated/Short Video Reels)",
+            "Platforms: Up to 3 (e.g., Instagram, Facebook, TikTok)",
+            "All Source Files Included: Editable PSD, AI, or INDD templates",
+            "Engaging Captions & Targeted Hashtag Strategy",
+            "3D Content Mockups for brand presentation",
+            "Priority Support & 2 Rounds of Revisions"
+          ]
+        },
+        {
+          "type": "Premium Plan",
+          "price": "89",
+          "currency": "USD",
+          "deliveryTime": "5-7 Days",
+          "description": "Complete visual package for brands looking for complete multi-platform dominance.",
+          "details": [
+            "30 Custom Designed Posts (Includes 5 Animated/Reel Templates)",
+            "Platforms: Up to 4 (Instagram, Facebook, TikTok, LinkedIn)",
+            "Full Brand Guidelines Alignment: Custom color palette & font hierarchy",
+            "Complete Source & Vector Files included",
+            "Story Templates & Highlight Covers (Bonus Pack)",
+            "Unlimited Revisions & Top-Priority Turnaround"
           ]
         }
       ]
